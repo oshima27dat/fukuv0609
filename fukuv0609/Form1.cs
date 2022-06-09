@@ -20,6 +20,7 @@ namespace fukuv0609
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("大嶋柊哉");
+            timer1.Enabled = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -27,6 +28,35 @@ namespace fukuv0609
             label1.Left += int.Parse(textBox1.Text);
             label1.Top += int.Parse(textBox2.Text);
             
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "1";
+            label1.Text = "㊦";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox2.Text = "-1";
+            label1.Text = "㊤";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "1";
+            label1.Text = "㊨";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "-1";
+            label1.Text = "㊧";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
