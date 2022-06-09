@@ -32,25 +32,29 @@ namespace fukuv0609
 
         private void button3_Click(object sender, EventArgs e)
         {
-            textBox2.Text = "1";
+            textBox2.Text = "5";
+            textBox1.Text = "0";
             label1.Text = "㊦";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox2.Text = "-1";
+            textBox2.Text = "-5";
+            textBox1.Text = "0";
             label1.Text = "㊤";
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "1";
+            textBox1.Text = "5";
+            textBox2.Text = "0";
             label1.Text = "㊨";
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "-1";
+            textBox1.Text = "-5";
+            textBox2.Text = "0";
             label1.Text = "㊧";
         }
 
